@@ -74,6 +74,23 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card .participants {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e3f2fd; /* Light blue background for distinction */
+  border: 1px solid #90caf9; /* Border matching the theme */
+  border-radius: 4px;
+  font-size: 14px;
+  color: #0d47a1; /* Dark blue text for readability */
+}
+
+.activity-card .participants strong {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #1565c0; /* Slightly darker blue for the label */
+}
+
 .form-group {
   margin-bottom: 15px;
 }
